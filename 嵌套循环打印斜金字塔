@@ -1,0 +1,9 @@
+#include<stdio.h>
+#define line 5
+int main(){
+for(int i=1;i<=line;i++)
+{for(int j=0;j<i;j++)
+        printf("%c",'$');
+printf("\n");}
+return 0;
+}
