@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int status,a;
+status=scanf("%d",&a);
+while(status==1) {
+    printf("%d\n", a);
+    printf("again\n");
+    status=scanf("%d",&a);
+}
+printf("end");
+        return 0;
+}
