@@ -1,0 +1,13 @@
+#include<string.h>
+#include<stdio.h>
+int main(){
+char front[20];
+char back[20];
+gets(front);
+int s=strlen(front);
+printf("%d\n",s);
+for(int i=s-1;i>=0;i--)
+
+printf("%c",front[i]);
+        return 0;
+}
