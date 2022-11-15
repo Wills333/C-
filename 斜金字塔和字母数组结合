@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    char fi='F';
+    char zimu[26];
+    for(int i=0;i<6;i++)
+        zimu[i]=fi--;
+    for(int j=1;j<=6;j++) {
+        for (int k = 0; k < j; k++)
+            printf("%c", zimu[k]);
+        printf("\n");
+    }
+        return 0;
+}
