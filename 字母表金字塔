@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+char fi='A';
+char shuru;
+scanf("%c",&shuru);
+int cha;
+cha=shuru-fi+1;
+for(int i=1;i<=cha;i++)
+{char fi='A';
+    for(int b=16;b>i;b--)
+printf("%c",' ');
+        for(int k=0;k<i;k++)
+        printf("%c",fi++);
+        fi=fi-1;
+        for(int l=0;l<i-1;l++)
+            printf("%c",--fi);
+    printf("\n");
+}
+        return 0;
+}
