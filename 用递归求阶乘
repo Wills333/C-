@@ -1,0 +1,13 @@
+#include<stdio.h>
+int jc(int n);
+int main(){
+    int n;
+    printf("请输入要求的数");
+    scanf("%d",&n);
+    printf("%d的阶乘是%d",n,jc(n));
+        return 0;
+}
+int jc(int n){
+    if(n!=1)n=n*jc(n-1);
+    else return n;
+}
